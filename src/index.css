@@ -14,3 +14,29 @@
   outline: 0!important;
   font-family: 'Red Hat Display', sans-serif;
 }
+
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  width: 1248px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1255px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1640px) {
+  body {
+    zoom: 1;
+  }
+
+  .container {
+    width: 90%;
+  }  
+}

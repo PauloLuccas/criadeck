@@ -1,3 +1,113 @@
-.container {
+header {
+    position: relative;
+    top: 0;
+    left: 0;
     width: 100%;
+    z-index: 30;
+    padding: 8px 8px;
+    background-color: #F5F5F7;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+header .logo {
+    display: block;
+    background: url('../../assets/svg/logo.svg') no-repeat center center;
+    width: 170px;
+    height: 32px;
+}
+
+header nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+header nav ul {
+    position: relative;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+header nav ul li {
+    margin-left: 56px;
+}
+
+header nav ul li a {
+    font: normal 500 0.9375rem/19px 'Red Hat Display';
+    letter-spacing: -0.44px;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+header nav ul li a:hover {
+    opacity: 1;
+    color: #284BFF;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+header .menu-mobile {
+    display: none;
+}
+
+header input {
+    width: 113px;
+    height: 38px;
+    background-color: #0072DC;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 5rem;
+}
+
+header input:hover {
+    background-color: #4FB9F6;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+header input[value="Orçamento"] {
+    text-align: center;
+    color: #fff;
+    font: normal normal 12px 'Red Hat Display';
+}
+
+header a.btn-menu {
+    margin-left: -10rem;
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    header nav {
+        display: none;
+    }
+
+    header input {
+        display: none;
+    }
 }
