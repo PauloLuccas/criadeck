@@ -374,6 +374,7 @@
     .s-ourFloors .floorType .arenaBody h6,
     .s-ourFloors .floorType .ultraBody h6 {
         font-size: 20px;
+        line-height: 1.5;
     }
 
     .pixelBody .txt1 p,
