@@ -1,0 +1,466 @@
+.s-ourFloors {
+    background: #F5F5F7;
+    height: 100%
+}
+
+.s-ourFloors .container {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+}
+
+.s-ourFloors .text h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 4rem;
+    letter-spacing: -0.8px;
+}
+
+.s-ourFloors .text p {
+    text-align: center;
+    font-size: 14px;
+    color: #5E5E5E;
+    letter-spacing: -0.28px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.s-ourFloors .floorType {
+    position: relative;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.s-ourFloors .floorType .pixel,
+.s-ourFloors .floorType .mega,
+.s-ourFloors .floorType .arena,
+.s-ourFloors .floorType .ultra {
+    position: relative;
+    width: 266px;
+    height: 100%;
+    border-radius: 16px;
+    background: #FFF;
+    margin-bottom: 5rem;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.02);
+}
+
+.s-ourFloors .floorType .pixel,
+.s-ourFloors .floorType .mega,
+.s-ourFloors .floorType .arena {
+    margin-right: 1rem;
+}
+
+.s-ourFloors .floorType .pixel img.bgPixel {
+    width: 100%;
+}
+
+.s-ourFloors .floorType .pixel img.iconPixel {
+    position: absolute;
+    top: 5rem;
+    left: -3.5rem;
+    margin-top: -1rem;
+    width: 110%;
+}
+
+.s-ourFloors .floorType .pixelBody img {
+    width: 108px;
+    margin: 1.5rem;
+    margin-left: 0;
+    margin-top: 3rem;
+}
+
+.s-ourFloors .floorType .pixelBody h6 {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.36px;
+    line-height: 1.2;
+}
+
+.s-ourFloors .floorType .pixelBody h6 span {
+    background: #0084ff48;
+    border-radius: 4px;
+}
+
+.s-ourFloors .floorType .pixelBody .txt1, .txt2,
+.s-ourFloors .floorType .megaBody .txt1, .txt2,
+.s-ourFloors .floorType .arenaBody .txt1, .txt2,
+.s-ourFloors .floorType .ultraBody .txt1, .txt2  {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.s-ourFloors .floorType .pixelBody,
+.s-ourFloors .floorType .megaBody,
+.s-ourFloors .floorType .arenaBody {
+    padding-left: 1rem;
+}
+
+.pixelBody .txt1,
+.megaBody .txt1,
+.arenaBody .txt1 {
+    margin-top: 1rem;
+}
+
+.pixelBody .txt1 p,
+.pixelBody .txt2 p,
+.megaBody .txt1 p,
+.megaBody .txt2 p,
+.arenaBody .txt1 p,
+.arenaBody .txt2 p,
+.ultraBody .txt1 p,
+.ultraBody .txt2 p {
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    margin-top: .5rem;
+}
+
+.s-ourFloors .floorType .pixelBody svg,
+.s-ourFloors .floorType .megaBody svg,
+.s-ourFloors .floorType .arenaBody svg,
+.s-ourFloors .floorType .ultraBody svg {
+    width: 30px;
+    margin-right: 1rem;
+}
+
+.s-ourFloors .floorType .pixelBody .btn input,
+.s-ourFloors .floorType .megaBody .btn input,
+.s-ourFloors .floorType .arena .btn input,
+.s-ourFloors .floorType .ultra .btn input {
+    width: 111px;
+    height: 38px;
+    border-radius: 6px;
+    border: 1px solid #0072DC;
+    margin-top: 1.5rem;
+    position: relative;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.s-ourFloors .floorType .pixelBody .btn input[value="Saiba mais"],
+.s-ourFloors .floorType .megaBody .btn input[value="Saiba mais"],
+.s-ourFloors .floorType .arenaBody .btn input[value="Saiba mais"],
+.s-ourFloors .floorType .ultraBody .btn input[value="Saiba mais"] {
+    text-align: center;
+    font-size: 13px;
+    color: #0072DC;
+    padding-right: 1rem;
+}
+
+.s-ourFloors .floorType .pixelBody .btn svg,
+.s-ourFloors .floorType .megaBody .btn svg,
+.s-ourFloors .floorType .arenaBody .btn svg  {
+    position: absolute;
+    left: 6rem;
+    top: 29.4rem;
+}
+
+.pixelBody svg.exemplo,
+.megaBody svg.exemplo,
+.arenaBody svg.exemplo,
+.ultraBody svg.exemplo {
+    position: absolute;
+    right: -5.5rem;
+    bottom: 2rem;
+    width: 100%!important;
+}
+
+.mega img.bgMega {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+}
+
+.mega img.iconMega {
+    position: absolute;
+    top: 5rem;
+    left: -3.4rem;
+    width: 132%;
+}
+
+.megaBody {
+    padding-left: 1rem;
+}
+
+.megaBody img,
+.ultraBody img {
+    width: 108px;
+    margin: 1.5rem;
+    margin-left: 0;
+    margin-top: 3rem;
+}
+
+.megaBody h6,
+.arenaBody h6,
+.ultraBody h6 {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.36px;
+    line-height: 1.2;
+}
+
+.megaBody h6 span {
+    background: #0056a74d;
+    border-radius: 4px;
+}
+
+.s-ourFloors .floorType .megaBody .btn svg {
+    position: absolute;
+    left: 6rem;
+    top: 29.8rem;
+}
+
+.s-ourFloors .floorType .arena img.bgArena {
+    width: 100%;
+}
+
+.s-ourFloors .floorType .arena img.iconArena {
+    position: absolute;
+    top: 7rem;
+    left: -3rem;
+    margin-top: -1rem;
+    width: 110%;
+}
+
+.arenaBody img {
+    width: 108px;
+    margin: 1.5rem;
+    margin-left: 0;
+    margin-top: 3rem;
+}
+
+.arenaBody span {
+    background: #41e8273f;
+    border-radius: 4px;
+}
+
+.arenaBody {
+    padding-left: 1rem;
+}
+
+.s-ourFloors .floorType .arenaBody .btn input {
+    border: 1px solid #68C659;
+}
+
+.s-ourFloors .floorType .arenaBody .btn input[value="Saiba mais"] {
+    color: #68C659;
+}
+
+.ultra img.bgUltra {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+}
+
+.ultra img.iconUltra {
+    position: absolute;
+    top: 5rem;
+    left: -3.4rem;
+    width: 132%;
+}
+
+.ultraBody {
+    padding-left: 1rem;
+}
+
+.ultraBody h6 span {
+    background: #ff7b0082;
+    border-radius: 4px;
+}
+
+.s-ourFloors .floorType .ultra .btn input {
+    border: 1px solid #ff7b00;
+}
+
+.s-ourFloors .floorType .ultraBody .btn input[value="Saiba mais"] {
+    color: #ff7b00;
+}
+
+.s-ourFloors .floorType .ultraBody .btn svg {
+    position: absolute;
+    left: 6rem;
+    top: 29.2rem;
+}
+
+@media (min-width: 1400px) {
+    .s-ourFloors .floorType {
+        margin: 0 auto;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 528px) {
+    .s-ourFloors {
+        background: #EEEEF0;
+    }
+
+    .s-ourFloors .text {
+        margin-left: 5.6rem;
+        width: 56%;
+    }
+
+    .s-ourFloors .text h1 {
+        text-align: left;
+        font-size: 32px;
+        letter-spacing: .16px;
+    }
+
+    .s-ourFloors .text p {
+        text-align: left;
+        color: #5E5E5E;
+        font-size: 14px;
+        letter-spacing: .2px;
+        line-height: 1.5;
+    }
+
+    .s-ourFloors .text p br.br2 {
+        display: none;
+    }
+
+    .s-ourFloors .floorType .pixelBody .btn input,
+    .s-ourFloors .floorType .megaBody .btn input,
+    .s-ourFloors .floorType .arena .btn input,
+    .s-ourFloors .floorType .ultra .btn input {
+        border: none;
+        background: #fff;
+    }
+}
+
+@media (max-width: 440px) {
+    .s-ourFloors .container {
+        overflow-x: hidden;
+        margin-top: -4rem;
+    }
+
+    .s-ourFloors .text {
+        width: 100%;
+        margin-left: 0!important;
+    }
+
+    .s-ourFloors .floorType .pixel,
+    .s-ourFloors .floorType .mega,
+    .s-ourFloors .floorType .arena,
+    .s-ourFloors .floorType .ultra {
+        width: 100%;
+    }
+
+    .s-ourFloors .floorType .pixelBody img,
+    .s-ourFloors .floorType .megaBody img,
+    .s-ourFloors .floorType .arenaBody img,
+    .s-ourFloors .floorType .ultraBody img {
+        width: 134px;
+        margin-top: 5rem;
+    }
+
+    .s-ourFloors .floorType .pixelBody h6,
+    .s-ourFloors .floorType .megaBody  h6,
+    .s-ourFloors .floorType .arenaBody h6,
+    .s-ourFloors .floorType .ultraBody h6 {
+        font-size: 20px;
+    }
+
+    .pixelBody .txt1 p,
+    .pixelBody .txt2 p,
+    .megaBody .txt1 p,
+    .megaBody .txt2 p,
+    .arenaBody .txt1 p,
+    .arenaBody .txt2 p,
+    .ultraBody .txt1 p,
+    .ultraBody .txt2 p {
+        font-size: 16px;
+    }
+
+    .s-ourFloors .floorType .pixelBody .btn input[value="Saiba mais"],
+    .s-ourFloors .floorType .megaBody .btn input[value="Saiba mais"],
+    .s-ourFloors .floorType .arenaBody .btn input[value="Saiba mais"],
+    .s-ourFloors .floorType .ultraBody .btn input[value="Saiba mais"] {
+        font-size: 16px;
+    }
+
+    .s-ourFloors .floorType .pixelBody .btn svg {
+        left: 6.8rem;
+        top: 37rem;
+    }
+
+    .pixelBody svg.exemplo,
+    .megaBody svg.exemplo,
+    .arenaBody svg.exemplo,
+    .ultraBody svg.exemplo {
+        right: -8.5rem;
+    }
+
+    .s-ourFloors .floorType .megaBody .btn svg {
+        left: 7rem;
+        top: 37.6rem;
+    }
+
+    .s-ourFloors .floorType .arenaBody .btn svg {
+        left: 7rem;
+        top: 37.4rem;
+    }
+
+    .s-ourFloors .floorType .ultraBody .btn svg {
+        left: 7rem;
+        top: 38.2rem;
+    }
+
+    .s-ourFloors .floorType .pixel img.iconPixel {
+        position: absolute;
+        top: 5rem;
+        left: -5.5rem;
+        margin-top: -1rem;
+        width: 125%;
+    }
+
+    .mega img.iconMega {
+        top: 7rem;
+        left: -6rem;
+    }
+
+    .s-ourFloors .floorType .arena img.iconArena {
+        left: -5rem;
+        width: 132%;
+    }
+
+    .ultra img.iconUltra {
+        top: 7rem;
+        left: -5.4rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .s-ourFloors .floorType .pixelBody .btn svg {
+        top: 35rem;
+    }
+
+    .s-ourFloors .floorType .megaBody .btn svg {
+        top: 35.6rem;
+    }
+
+    .s-ourFloors .floorType .arenaBody .btn svg {
+        top: 35.4rem;
+    }
+
+    .s-ourFloors .floorType .ultraBody .btn svg {
+        top: 36.3rem;
+    }
+
+    .pixelBody svg.exemplo,
+    .megaBody svg.exemplo,
+    .arenaBody svg.exemplo,
+    .ultraBody svg.exemplo {
+        right: -7.5rem;
+    }
+}

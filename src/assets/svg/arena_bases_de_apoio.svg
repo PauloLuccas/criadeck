@@ -1,0 +1,17 @@
+<svg width="36" height="38" viewBox="0 0 36 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="36" height="37.4734" fill="white"/>
+<ellipse cx="18" cy="18.7367" rx="14" ry="14.573" fill="#D7FFD0" fill-opacity="0.6"/>
+<ellipse cx="18" cy="18.7367" rx="14" ry="14.573" fill="url(#paint0_linear)" fill-opacity="0.6"/>
+<ellipse cx="18" cy="18.7367" rx="14" ry="14.573" stroke="#75BE69"/>
+<ellipse cx="12.6154" cy="13.1317" rx="3.23077" ry="3.363" fill="white" stroke="#75BE69"/>
+<ellipse cx="12.6154" cy="24.3417" rx="3.23077" ry="3.363" fill="white" stroke="#75BE69"/>
+<ellipse cx="18" cy="18.7367" rx="1.07692" ry="1.121" stroke="#75BE69"/>
+<ellipse cx="23.3846" cy="13.1317" rx="3.23077" ry="3.363" fill="white" stroke="#75BE69"/>
+<ellipse cx="23.3846" cy="24.3417" rx="3.23077" ry="3.363" fill="white" stroke="#75BE69"/>
+<defs>
+<linearGradient id="paint0_linear" x1="18" y1="4.1637" x2="18" y2="33.3097" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>
