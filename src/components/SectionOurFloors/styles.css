@@ -300,15 +300,12 @@
 }
 
 @media (min-width: 1400px) {
-    .s-ourFloors .floorType .pixel {
-        margin-top: 1rem;
-    }
-
     .s-ourFloors .floorType .pixel,
     .s-ourFloors .floorType .mega,
     .s-ourFloors .floorType .arena,
     .s-ourFloors .floorType .ultra {
         width: 300px;
+        height: 575px;
     }
 
     .pixelBody h6, .megaBody h6, .arenaBody h6, .ultraBody h6 {

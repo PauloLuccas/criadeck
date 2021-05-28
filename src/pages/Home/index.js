@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../../components/Header';
 import SectionApplications from '../../components/SectionApplications';
 import SectionBanner from '../../components/SectionBanner';
+import SectionBudgetTag from '../../components/SectionBudgetTag';
 import SectionFloorLeasing from '../../components/SectionFloorLeasing';
 import SectionOurClients from '../../components/SectionOurClients';
 import SectionOurFloors from '../../components/SectionOurFloors';
@@ -21,6 +22,7 @@ function Home() {
         <SectionWhy />
         <SectionApplications />
         <SectionOurClients />
+        <SectionBudgetTag />
       </>
     );
 }
