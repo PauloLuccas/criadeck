@@ -1,0 +1,180 @@
+.s-why {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    padding-top: 5rem;
+}
+
+.s-why .container {
+    position: relative;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.s-why .text {
+    width: 100%;
+    position: relative;
+}
+
+.s-why .text h1 {
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -0.88px;
+    margin-bottom: 1.5rem;
+}
+
+.s-why .text p {
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    color: #5E5E5E;
+}
+
+.s-why .text input {
+    margin-top: 2rem;
+    width: 112px;
+    height: 44px;
+    background: #0072DC;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.s-why .text input:hover {
+    opacity: 1;
+    color: #284BFF;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.s-why .text input[value="Sobre nós"] {
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
+
+.s-why .text img.whyMobile {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .s-why .container {
+        flex-direction: column;
+    }
+
+    .s-why .text {
+        margin-top: 0rem!important;
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        order: 2;
+        margin-bottom: 7rem;
+        background-color: #fff;
+        border-radius: 16px;
+        padding: 0 .5rem 2rem .5rem;
+    }
+
+    .s-why .text p,
+    .s-why .text h1 {
+        text-align: center;
+    }
+
+    .s-why .img-why img {
+        width: 90%;
+        margin-left: 5rem;
+        margin-top: 2rem;
+        order: 1;
+    }
+
+    .s-why .text input {
+        width: 100%;
+    }
+
+    .s-why .img-why img {
+        width: 133%;
+        margin-left: -5rem;
+        margin-top: -2rem;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .s-why .img-why img {
+        display: none;
+    }
+
+    .s-why .text {
+        padding-top: 8rem;
+    }
+
+    .s-why .text img.whyMobile {
+        display: block;
+        position: absolute;
+        top: -6rem;
+        left: 3rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .s-why .text img.whyMobile {
+        left: 1rem;
+    }
+}
+
+@media (max-width: 528px) {
+    .s-why {
+        margin-top: 5rem;
+    }
+
+    .s-why .text {
+        padding-top: 8rem;
+    }
+
+    .s-why .text img.whyMobile {
+        top: -8rem;
+        left: -1.3rem;
+    }
+
+    .s-why .text br {
+        display: none;
+    }
+
+    .s-why .text br.q-linha {
+        display: block;
+    }
+
+    .s-why .text h1 {
+        text-align: left;
+        font-size: 28px;
+        letter-spacing: 0.16px;
+    }
+
+    .s-why .text p {
+        text-align: left;
+        font-size: 16px;
+        letter-spacing: .2px;
+        line-height: 1.6;
+    }
+
+    .s-why .text input {
+        display: none;
+    }
+}
+
+@media (max-width: 440px) {
+    .s-why .text {
+        width: 100%;
+    }
+
+    .s-why .text img.whyMobile {
+        top: -8rem;
+        left: .6rem;
+    }
+}
