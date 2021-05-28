@@ -8,6 +8,7 @@ import logoBrahma from '../../assets/img/brahma.png';
 import logoCasaBh from '../../assets/img/casas_bahia.png';
 import logoPorsche from '../../assets/img/porsche.png';
 import logoT4f from '../../assets/img/t4f.png';
+import logoBradesco from '../../assets/img/bradesco.png';
 import logoNubank from '../../assets/img/nubank.png';
 import logoGlobo from '../../assets/img/globo.png';
 import logoFeeling from '../../assets/img/feeling.png';
@@ -49,6 +50,9 @@ function SectionOurClients() {
                     </div>
 
                     <div className="f2">
+                        <div className="c7">
+                            <img src={logoBradesco} alt="Logos clientes" />
+                        </div>
                         <div className="c1">
                             <img src={logoNubank} alt="Logos clientes" />
                         </div>
@@ -66,6 +70,64 @@ function SectionOurClients() {
                         </div>
                         <div className="c6">
                             <img src={logoBFerraz} alt="Logos clientes" />
+                        </div>
+                    </div>
+
+
+                    <div className="c-mobile">
+                        <div className="l1">
+                            <div className="c1">
+                                <img src={logoAmbev} alt="logoAmbev" />
+                            </div>
+                            <div className="c2">
+                                <img src={logoStockCar} alt="logoStockCar" />
+                            </div>
+                        </div>
+                        <div className="l2">
+                            <div className="c1">
+                                <img src={logoBrahma} alt="logoBrahma" />
+                            </div>
+                            <div className="c2">
+                                <img src={logoGlobo} alt="logoGlobo" />
+                            </div>
+                            <div className="c3">
+                                <img src={logoBFerraz} alt="logoBFerraz" />
+                            </div>
+                        </div>
+                        <div className="l3">
+                            <div className="c1">
+                                <img src={logoCasaBh} alt="logoCasaBh" />
+                            </div>
+                            <div className="c2">
+                                <img src={logoFeeling} alt="logoFeeling" />
+                            </div>
+                        </div>
+                        <div className="l4">
+                            <div className="c1">
+                                <img src={logoPorsche} alt="logoPorsche" />
+                            </div>
+                        </div>
+                        <div className="l5">
+                            <div className="c1">
+                                <img src={logoHyundai} alt="logoHyundai" />
+                            </div>
+                            <div className="c2">
+                                <img src={logoBradesco} alt="logoBradesco" />
+                            </div>
+                            <div className="c3">
+                                <img src={logoSesc} alt="logoSesc" />
+                            </div>
+                        </div>
+                        <div className="l6">
+                            <div className="c1">
+                                <img src={logoSebrae} alt="logoSebrae" />
+                            </div>
+                            <div className="c2">
+                                <img src={logoNubank} alt="logoNubank" />
+                            </div>
+                            <div className="c3">
+                                <img src={logoT4f} alt="logoT4f" />
+                            </div>
                         </div>
                     </div>
                 </div>
