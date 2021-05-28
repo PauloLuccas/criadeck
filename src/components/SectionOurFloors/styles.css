@@ -304,7 +304,7 @@
     .s-ourFloors .floorType .mega,
     .s-ourFloors .floorType .arena,
     .s-ourFloors .floorType .ultra {
-        width: 310px;
+        width: 300px;
     }
 
     .pixelBody h6, .megaBody h6, .arenaBody h6, .ultraBody h6 {
@@ -312,19 +312,19 @@
     }
 
     .s-ourFloors .floorType .pixelBody .btn svg {
-        top: 31.4rem;
+        top: 31rem;
     }
 
     .s-ourFloors .floorType .megaBody .btn svg {
-        top: 32.5rem;
+        top: 32rem;
     }
 
     .s-ourFloors .floorType .arenaBody .btn svg {
-        top: 32.4rem;
+        top: 31.8rem;
     }
 
     .s-ourFloors .floorType .ultraBody .btn svg {
-        top: 32.2rem;
+        top: 31.8rem;
     }
 
     .pixelBody svg.exemplo, .megaBody svg.exemplo, .arenaBody svg.exemplo, .ultraBody svg.exemplo { 

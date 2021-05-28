@@ -3,6 +3,7 @@ import Header from '../../components/Header';
 import SectionApplications from '../../components/SectionApplications';
 import SectionBanner from '../../components/SectionBanner';
 import SectionFloorLeasing from '../../components/SectionFloorLeasing';
+import SectionOurClients from '../../components/SectionOurClients';
 import SectionOurFloors from '../../components/SectionOurFloors';
 import SectionWhatWeDo from '../../components/SectionWhatWeDo';
 import SectionWhy from '../../components/SectionWhy';
@@ -19,6 +20,7 @@ function Home() {
         <SectionWhatWeDo />
         <SectionWhy />
         <SectionApplications />
+        <SectionOurClients />
       </>
     );
 }
