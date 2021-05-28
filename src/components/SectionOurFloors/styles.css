@@ -69,9 +69,9 @@
 .s-ourFloors .floorType .pixel img.iconPixel {
     position: absolute;
     top: 5rem;
-    left: -3.5rem;
+    left: -3.8rem;
     margin-top: -1rem;
-    width: 110%;
+    width: 123%;
 }
 
 .s-ourFloors .floorType .pixelBody img {
@@ -157,6 +157,7 @@
     font-size: 13px;
     color: #0072DC;
     padding-right: 1rem;
+    background: transparent;
 }
 
 .s-ourFloors .floorType .pixelBody .btn svg,
@@ -231,7 +232,7 @@
     top: 7rem;
     left: -3rem;
     margin-top: -1rem;
-    width: 110%;
+    width: 123%;
 }
 
 .arenaBody img {
