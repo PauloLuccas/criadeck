@@ -1,0 +1,204 @@
+.s-floor {
+    background: #EEEEF0;
+    height: 612px;
+}
+
+.s-floor .container {
+    position: relative;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.s-floor .text {
+    margin-top: 6rem;
+}
+
+.s-floor .text h1 {
+    font-size: 40px;
+    letter-spacing: -0.88px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.s-floor .text p {
+    color: #5e5e5e;
+    font-size: 14px;
+    margin-top: 1rem;
+    letter-spacing: -0.28px;
+}
+
+.s-floor .text input {
+    margin-top: 2rem;
+    width: 112px;
+    height: 44px;
+    background: #0072DC;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.s-floor .text input:hover {
+    opacity: 1;
+    color: #284BFF;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.s-floor .text input[value="Saiba mais"] {
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
+
+.s-floor .container img {
+    width: 66%;
+    margin-top: 3rem;
+}
+
+.s-floor .container img.img-floor-mobile {
+    display: none;
+}
+
+.s-floor .container img.point-blue-mobile {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .s-floor {
+        height: 20%;
+        position: relative;
+    }
+
+    .s-floor .container {
+        flex-direction: column;
+    }
+
+    .s-floor .text {
+        width: 100%;
+        text-align: center;
+        margin-left: 0!important;
+    }
+
+    .s-floor .text h1 {
+        text-align: center;
+    }
+
+    .s-floor .text p {
+        text-align: center;
+    }
+
+    .s-floor .text br.br1,
+    .s-floor .text br.br3 {
+        display: none;
+    }
+
+    .s-floor .text input {
+        width: 186px;
+    }
+
+    .s-floor .container img {
+        margin-left: 10rem;
+    }
+}
+
+@media (max-width: 874px) {
+    .s-floor .container img {
+        margin-left: 8rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .s-floor .container img {
+        display: none;
+    }
+
+    .s-floor .container img.img-floor-mobile {
+        display: block;
+        margin-bottom: 15rem;
+        margin-left: 7.5rem;
+    }
+
+    .s-floor .text input {
+        width: 70%;
+    }
+
+    .s-floor .container img.point-blue-mobile {
+        position: absolute;
+        display: block;
+        bottom: 8rem;
+        left: -8rem;
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    .s-floor .container img.img-floor-mobile {
+        display: block;
+        margin-bottom: 15rem;
+        margin-left: 5.5rem;
+    }
+}
+
+@media (max-width: 528px) {
+    .s-floor .text {
+        width: 64%;
+        margin-left: 5rem!important;
+    }
+
+    .s-floor .text h1{
+        text-align: left;
+        font-size: 32px;
+        letter-spacing: 0.16px;
+    }
+
+    .s-floor .text br.br2,
+    .s-floor .text br.br1 {
+        display: none;
+    }
+
+    .s-floor .text br.m-br1  {
+        display: block;
+    }
+
+    .s-floor .text p {
+        font-size: 14px;
+        letter-spacing: -.4px;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    .s-floor .text input {
+        display: none;
+    }
+}
+
+@media (max-width: 440px) {
+    .s-floor .text  {
+        width: 100%;
+        margin-left: 0!important;
+    }
+
+    .s-floor .text br.br2,
+    .s-floor .text br.br1 {
+        display: none!important;
+    }
+
+    .s-floor .text br.m-br1  {
+        display: block;
+    }
+
+    .s-floor .container img.img-floor-mobile {
+        display: block;
+        width: 100%;
+        margin-bottom: 12rem;
+        margin-left: 0rem;
+    }
+}
