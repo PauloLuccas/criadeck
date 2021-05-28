@@ -445,6 +445,24 @@
     }
 }
 
+@media (max-width: 414px) {
+    .s-ourFloors .floorType .pixelBody .btn svg {
+        top: 36.8rem; 
+    }
+
+    .s-ourFloors .floorType .megaBody .btn svg {
+        top: 37.3rem;  
+    }
+
+    .s-ourFloors .floorType .arenaBody .btn svg {
+        top: 36.9rem; 
+    } 
+
+    .s-ourFloors .floorType .ultraBody .btn svg {
+        top: 37.9rem;
+    }
+}
+
 @media (max-width: 375px) {
     .s-ourFloors .floorType .pixelBody .btn svg {
         top: 35rem;
