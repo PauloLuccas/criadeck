@@ -111,7 +111,7 @@
     width: 186px;
     height: 40px;
     border-radius: 8px;
-    -webkit-appearance: none;
+    -webkit-border-radius:0px;
 }
 
 .s-banner .text input[value="Faça um orçamento"] {
