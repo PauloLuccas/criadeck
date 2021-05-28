@@ -1,0 +1,145 @@
+.s-applications {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    padding-bottom: 10rem;
+}
+
+.s-applications .container {
+    position: relative;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.s-applications .container svg {
+    width: 100%;
+    margin: 4rem 0;
+}
+
+.s-applications .text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+}
+
+.s-applications .text h1 {
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -0.8px;
+    margin-bottom: 1.5rem;
+}
+
+.s-applications .text p {
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    color: #5E5E5E;
+    margin-left: 5rem;
+    margin-top: .5rem;
+    line-height: 1.5;
+}
+
+.s-applications .controllers {
+    margin-bottom: 2rem;
+}
+
+.s-applications .controllers img {
+    margin-right: .5rem;
+    cursor: pointer;
+}
+
+.s-applications .Carousel {
+    display: flex;
+    flex-direction: row;
+    width: 150%;
+
+}
+
+.s-applications .Carousel img {
+    width: 100%;
+    cursor: pointer;
+    
+}
+
+.s-applications .Carousel .card2,
+.s-applications .Carousel .card3,
+.s-applications .Carousel .card4,
+.s-applications .Carousel .card5,
+.s-applications .Carousel .card6,
+.s-applications .Carousel .card7 {
+    margin-left: .7rem;
+}
+
+@media (max-width: 1000px) {
+    .s-applications .Carousel {
+        width: 150%;
+        overflow-x: auto!important;
+    }
+}
+
+@media (max-width: 767px) {
+    .s-applications .Carousel {
+        width: 150%;
+    }
+}
+
+@media (max-width: 640px) {
+    .s-applications .Carousel {
+        width: 150%;
+    }
+}
+
+@media (max-width: 528px) {
+    .s-applications svg {
+        display: none;
+    }
+
+    .s-applications .Carousel {
+        width: 292%;
+    }
+
+    .s-applications .controllers {
+        display: none;
+    }
+
+    .s-applications .text {
+        flex-direction: column;
+        width: 80%;
+        margin-left: 5rem;
+    }
+
+    .s-applications .text h1 {
+        text-align: left;
+        font-size: 28px;
+        letter-spacing: 0.16px;
+        margin-bottom: 0;
+    }
+
+    .s-applications .text p {
+        text-align: left;
+        font-size: 16px;
+        letter-spacing: .2px;
+        line-height: 1.6;
+        margin-left: 0;
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-width: 440px) {
+    .s-applications .text {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media (max-width: 414px) {
+    .s-applications .Carousel {
+        width: 392%;
+    }
+}

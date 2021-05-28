@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../../components/Header';
+import SectionApplications from '../../components/SectionApplications';
 import SectionBanner from '../../components/SectionBanner';
 import SectionFloorLeasing from '../../components/SectionFloorLeasing';
 import SectionOurFloors from '../../components/SectionOurFloors';
@@ -17,6 +18,7 @@ function Home() {
         <SectionOurFloors />
         <SectionWhatWeDo />
         <SectionWhy />
+        <SectionApplications />
       </>
     );
 }
