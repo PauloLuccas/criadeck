@@ -178,3 +178,10 @@
         left: .6rem;
     }
 }
+
+@media (max-width: 414px) {
+    .s-why .text img.whyMobile {
+        top: -8rem;
+        left: -.2rem;
+    }
+}
