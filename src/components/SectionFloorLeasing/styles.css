@@ -71,6 +71,12 @@
     display: none;
 }
 
+@media (min-width: 1640px) {
+    .s-floor .text br.m-br1 {
+        display: none;
+    }
+}
+
 @media (max-width: 1000px) {
     .s-floor {
         height: 20%;

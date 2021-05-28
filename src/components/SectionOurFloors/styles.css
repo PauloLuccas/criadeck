@@ -300,6 +300,10 @@
 }
 
 @media (min-width: 1400px) {
+    .s-ourFloors .floorType .pixel {
+        margin-top: 1rem;
+    }
+
     .s-ourFloors .floorType .pixel,
     .s-ourFloors .floorType .mega,
     .s-ourFloors .floorType .arena,
