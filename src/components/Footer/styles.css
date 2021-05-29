@@ -181,6 +181,9 @@
         margin-bottom: 1rem;
     }
     
+    .s-footer .container .m-contatos li {
+        margin-bottom: .3rem;
+    }
 
     .s-footer .container .m-contatos svg.m-svg {
         width: 8%;
@@ -255,7 +258,7 @@
     }
 
     .s-footer .container .f-top .menu-footer .n-c2 {
-        margin-left: 4rem;
+        margin-left: 6rem;
     }
 
     .s-footer .container .f-top .menu-footer .n-c3 {
@@ -263,6 +266,6 @@
     }
 
     .s-footer .container .f-top .menu-footer .n-c4 {
-        margin-left: 1rem;
+        margin-left: 3rem;
     }
 }

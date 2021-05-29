@@ -85,7 +85,7 @@ function Footer() {
                         <div className="n-c2">
                             <nav>
                                 <ul>
-                                    <li className="first">O que fazemo</li>
+                                    <li className="first">O que fazemos</li>
                                     <li><a href="#">Alugamos</a></li>
                                     <li><a href="#">Personalizamos</a></li>
                                     <li><a href="#">Vendemos</a></li>
