@@ -248,3 +248,21 @@
         width: 50%;
     }
 }
+
+@media (max-width: 500px) {
+    .s-footer .container .f-top .menu-footer .n-c1 {
+        margin-left: 1rem;
+    }
+
+    .s-footer .container .f-top .menu-footer .n-c2 {
+        margin-left: 4rem;
+    }
+
+    .s-footer .container .f-top .menu-footer .n-c3 {
+        margin-left: 1rem;
+    }
+
+    .s-footer .container .f-top .menu-footer .n-c4 {
+        margin-left: 1rem;
+    }
+}
