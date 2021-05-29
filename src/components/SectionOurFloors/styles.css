@@ -447,7 +447,7 @@
 
     .s-ourFloors .floorType .ultraBody .btn svg {
         left: 7rem;
-        top: 40.2rem;
+        top: 39.4rem;
     }
 
     .s-ourFloors .floorType .pixel img.iconPixel {
@@ -472,6 +472,10 @@
         top: 7rem;
         left: -5.4rem;
     }
+
+    .s-ourFloors .floorType .ultra {
+        margin-right: 1rem;
+    }
 }
 
 @media (max-width: 414px) {
@@ -488,8 +492,9 @@
     } 
 
     .s-ourFloors .floorType .ultraBody .btn svg {
-        top: 39rem;
+        top: 38.3rem;
     }
+
 }
 
 @media (max-width: 375px) {
