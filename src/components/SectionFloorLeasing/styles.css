@@ -28,6 +28,10 @@
     line-height: 1;
 }
 
+.s-floor .text br.m-br1 {
+    display: none;
+}
+
 .s-floor .text p {
     color: #5e5e5e;
     font-size: 14px;

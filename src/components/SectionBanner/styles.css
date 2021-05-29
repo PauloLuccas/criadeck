@@ -4,6 +4,7 @@
     background-image: url('../../assets/img/bg-banner.png');
     background-size: cover;
     overflow-x: hidden;
+    margin-top: 3rem;
 }
 
 .s-banner .container {
