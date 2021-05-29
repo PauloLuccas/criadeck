@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import SectionApplications from '../../components/SectionApplications';
 import SectionBanner from '../../components/SectionBanner';
@@ -23,6 +24,7 @@ function Home() {
         <SectionApplications />
         <SectionOurClients />
         <SectionBudgetTag />
+        <Footer/>
       </>
     );
 }
