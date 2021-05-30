@@ -17,8 +17,8 @@
 }
 
 .s-budget .container input {
-    width: 186px;
-    height: 40px;
+    width: 196px;
+    height: 45px;
     border-radius: 8px;
     position: relative;
     background: #fff;
@@ -27,7 +27,7 @@
 .s-budget .container input[value="Faça um orçamento"] {
     text-align: center;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .s-budget .container h1.t-mobile {

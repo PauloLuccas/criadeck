@@ -40,3 +40,13 @@ body {
     width: 90%;
   }  
 }
+
+@media (min-width: 1640px) and (max-width: 2000px) {
+  body {
+    zoom: .9;
+  }
+
+  .container {
+    width: 70%
+  }
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-import imgFloor from '../../assets/img/img-floor.png';
+import imgFloor from '../../assets/img/locacao-de-pisos-plasticos-para-shows-e-eventos.png';
 import imgFloorMobile from '../../assets/img/img-mobile-Floor.png';
 import pointBlue from '../../assets/img/point-blue-floor.png';
 

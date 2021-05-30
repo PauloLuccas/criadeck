@@ -21,7 +21,7 @@
 
 .s-ourFloors .text p {
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     color: #5E5E5E;
     letter-spacing: -0.28px;
     margin-top: 15px;
@@ -83,6 +83,7 @@
     margin: 1.5rem;
     margin-left: 0;
     margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 
 .s-ourFloors .floorType .pixelBody h6 {
@@ -139,6 +140,23 @@
     margin-right: 1rem;
 }
 
+.s-ourFloors .floorType .pixelBody .btn svg {
+    top: 29.8rem;
+}
+
+.s-ourFloors .floorType .arenaBody .btn svg {
+    top: 29.8rem;
+}
+
+.s-ourFloors .floorType .ultraBody .btn svg {
+    top: 29.8rem!important;
+}
+
+.s-ourFloors .floorType .pixelBody .btn input {
+    margin-top: 1.3rem;
+    position: relative;
+}
+
 .s-ourFloors .floorType .pixelBody .btn input,
 .s-ourFloors .floorType .megaBody .btn input,
 .s-ourFloors .floorType .arena .btn input,
@@ -169,7 +187,6 @@
 .s-ourFloors .floorType .arenaBody .btn svg  {
     position: absolute;
     left: 6rem;
-    top: 29.4rem;
 }
 
 .pixelBody svg.exemplo,
@@ -257,6 +274,7 @@
 
 .s-ourFloors .floorType .arenaBody .btn input {
     border: 1px solid #68C659;
+    margin-top: 1.8rem;
 }
 
 .s-ourFloors .floorType .arenaBody .btn input[value="Saiba mais"] {
@@ -285,8 +303,9 @@
     border-radius: 4px;
 }
 
-.s-ourFloors .floorType .ultra .btn input {
+.s-ourFloors .floorType .ultraBody .btn input {
     border: 1px solid #ff7b00;
+    margin-top: 2.2rem;
 }
 
 .s-ourFloors .floorType .ultraBody .btn input[value="Saiba mais"] {
@@ -305,7 +324,7 @@
     .s-ourFloors .floorType .arena,
     .s-ourFloors .floorType .ultra {
         width: 300px;
-        height: 575px;
+        height: 590px;
     }
 
     .pixelBody h6, .megaBody h6, .arenaBody h6, .ultraBody h6 {
@@ -313,19 +332,19 @@
     }
 
     .s-ourFloors .floorType .pixelBody .btn svg {
-        top: 31rem;
+        top: 31.6rem;
     }
 
     .s-ourFloors .floorType .megaBody .btn svg {
-        top: 32rem;
+        top: 32rem!important;
     }
 
     .s-ourFloors .floorType .arenaBody .btn svg {
-        top: 31.8rem;
+        top: 32rem;
     }
 
     .s-ourFloors .floorType .ultraBody .btn svg {
-        top: 31.8rem;
+        top: 32.5rem!important;
     }
 
     .pixelBody svg.exemplo, .megaBody svg.exemplo, .arenaBody svg.exemplo, .ultraBody svg.exemplo { 
@@ -353,7 +372,7 @@
     .s-ourFloors .text p {
         text-align: left;
         color: #5E5E5E;
-        font-size: 14px;
+        font-size: 16px;
         letter-spacing: .2px;
         line-height: 1.5;
     }

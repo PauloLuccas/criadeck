@@ -32,15 +32,15 @@
 }
 
 .s-why .text p {
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 0.2px;
     color: #5E5E5E;
 }
 
 .s-why .text input {
     margin-top: 2rem;
-    width: 112px;
-    height: 44px;
+    width: 156px;
+    height: 52px;
     background: #0072DC;
     border-radius: 8px;
     cursor: pointer;
@@ -57,7 +57,7 @@
 .s-why .text input[value="Sobre nós"] {
     text-align: center;
     color: #fff;
-    font-size: 12px;
+    font-size: 13.5px;
 }
 
 .s-why .text img.whyMobile {
