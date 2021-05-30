@@ -79,10 +79,10 @@
 }
 
 .s-ourFloors .floorType .pixelBody img {
-    width: 108px;
+    width: 110px;
     margin: 1.5rem;
     margin-left: 0;
-    margin-top: 3rem;
+    margin-top: 3.15rem;
     margin-bottom: 2rem;
 }
 
@@ -141,11 +141,11 @@
 }
 
 .s-ourFloors .floorType .pixelBody .btn svg {
-    top: 29.8rem;
+    top: 30rem;
 }
 
 .s-ourFloors .floorType .arenaBody .btn svg {
-    top: 29.8rem;
+    top: 29.4rem;
 }
 
 .s-ourFloors .floorType .ultraBody .btn svg {
@@ -318,13 +318,68 @@
     top: 29.2rem;
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1540px) {
+    .s-ourFloors .floorType .pixel, .s-ourFloors .floorType .mega, .s-ourFloors .floorType .arena, .s-ourFloors .floorType .ultra {
+        height: 565px!important;  
+        zoom: 2;
+    }
+
+    .s-ourFloors .floorType .pixelBody img {
+        width: 135px;
+        margin-top: 3.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .megaBody img, .ultraBody img {
+        width: 135px;
+        margin: 1.5rem;
+        margin-left: 0;
+        margin-top: 3rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .arenaBody img {
+        width: 135px;
+        margin-bottom: .7rem;
+    }
+
+    .pixelBody .txt1 p,
+    .pixelBody .txt2 p,
+    .megaBody .txt1 p,
+    .megaBody .txt2 p,
+    .arenaBody .txt1 p,
+    .arenaBody .txt2 p,
+    .ultraBody .txt1 p,
+    .ultraBody .txt2 p {
+        font-size: 14px;
+    }
+
+    .arenaBody .txt1 {
+        margin-top: .8rem!important;
+    }
+
+    .s-ourFloors .floorType .pixelBody .btn input, .s-ourFloors .floorType .megaBody .btn input, .s-ourFloors .floorType .arena .btn input, .s-ourFloors .floorType .ultra .btn input {
+        margin-top: 2rem;
+    }
+    
+
+    .s-ourFloors .floorType .arenaBody .btn svg {
+        top: 31.7rem!important;
+    }
+
+    .s-ourFloors .floorType .ultraBody .btn svg {
+        top: 31.7rem!important;
+    }
+}
+
+@media (min-width: 1540px)  {
     .s-ourFloors .floorType .pixel,
     .s-ourFloors .floorType .mega,
     .s-ourFloors .floorType .arena,
     .s-ourFloors .floorType .ultra {
         width: 300px;
         height: 590px;
+        zoom: 1.02;
     }
 
     .pixelBody h6, .megaBody h6, .arenaBody h6, .ultraBody h6 {
@@ -344,7 +399,7 @@
     }
 
     .s-ourFloors .floorType .ultraBody .btn svg {
-        top: 32.5rem!important;
+        top: 31.7rem!;
     }
 
     .pixelBody svg.exemplo, .megaBody svg.exemplo, .arenaBody svg.exemplo, .ultraBody svg.exemplo { 

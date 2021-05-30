@@ -1,20 +1,20 @@
 import React from 'react';
 import './styles.css';
 
-import logoAmbev from '../../assets/svg/ambev.svg';
-import logoHyundai from '../../assets/svg/hyundai.svg';
-import logoSebrae from '../../assets/svg/sebrae.svg';
-import logoBrahma from '../../assets/svg/brahma.svg';
-import logoCasaBh from '../../assets/svg/casas_bahia.svg';
-import logoPorsche from '../../assets/svg/porsche.svg';
-import logoT4f from '../../assets/svg/t4f.svg';
-import logoBradesco from '../../assets/svg/bradesco.svg';
-import logoNubank from '../../assets/svg/nubank.svg';
-import logoGlobo from '../../assets/svg/globo.svg';
-import logoFeeling from '../../assets/svg/feeling.svg';
-import logoStockCar from '../../assets/svg/stock_car.svg';
-import logoSesc from '../../assets/svg/sesc.svg';
-import logoBFerraz from '../../assets/svg/bferraz.svg';
+import logoAmbev from '../../assets/svg/logo_ambev.svg';
+import logoHyundai from '../../assets/svg/logo_hyundai.svg';
+import logoSebrae from '../../assets/svg/logo_sebrae.svg';
+import logoBrahma from '../../assets/svg/logo_brahma.svg';
+import logoCasaBh from '../../assets/svg/logo_casas_bahia.svg';
+import logoPorsche from '../../assets/svg/logo_porsche.svg';
+import logoT4f from '../../assets/svg/logo_t4f.svg';
+import logoBradesco from '../../assets/svg/logo_bradesco.svg';
+import logoNubank from '../../assets/svg/logo_nubank.svg';
+import logoGlobo from '../../assets/svg/logo_globo.svg';
+import logoFeeling from '../../assets/svg/logo_feeling.svg';
+import logoStockCar from '../../assets/svg/logo_stock_car.svg';
+import logoSesc from '../../assets/svg/logo_sesc.svg';
+import logoBFerraz from '../../assets/svg/logo_bferraz.svg';
 
 function SectionOurClients() {
   return (

@@ -43,10 +43,10 @@ body {
 
 @media (min-width: 1640px) and (max-width: 2000px) {
   body {
-    zoom: .9;
+    zoom: 1;
   }
 
   .container {
-    width: 70%
+    width: 80%
   }
 }

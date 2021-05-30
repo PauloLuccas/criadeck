@@ -3,7 +3,7 @@
     height: 612px;
     background-image: url('../../assets/img/bg-banner.png');
     background-size: cover;
-    overflow-x: hidden;
+    overflow: hidden!important;
     margin-top: 3rem;
 }
 

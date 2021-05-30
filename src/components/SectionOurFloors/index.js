@@ -1,18 +1,18 @@
 import React from 'react';
 import './styles.css';
 
-import bgPixel from '../../assets/img/bg-pixel.png';
-import iconPixel from '../../assets/img/icon-pixel.png';
-import logoPixel from '../../assets/img/logo_pixel.png';
-import bgMega from '../../assets/img/bg-mega.png';
-import iconMega from '../../assets/img/icon-mega.png';
-import logoMega from '../../assets/img/logo_mega.png';
-import bgArena from '../../assets/img/bg-arena.png';
-import iconArena from '../../assets/img/icon-arena.png';
-import logoArena from '../../assets/img/logo_arena.png';
-import bgUltra from '../../assets/img/bg-ultra.png';
-import iconUltra from '../../assets/img/icon-ultra.png';
-import logoUltra from '../../assets/img/logo_ultra.png';
+import bgPixel from '../../assets/img/nossos-pisos-pixel.png';
+import iconPixel from '../../assets/img/nossos-pisos-pixel-2.png';
+import logoPixel from '../../assets/svg/logo_pixel.svg';
+import bgMega from '../../assets/img/nossos-pisos-mega.png';
+import iconMega from '../../assets/img/nossos-pisos-mega-2.png';
+import logoMega from '../../assets/svg/logo_mega.svg';
+import bgArena from '../../assets/img/nossos-pisos-arena.png';
+import iconArena from '../../assets/img/nossos-pisos-arena-2.png';
+import logoArena from '../../assets/svg/logo_arena.svg';
+import bgUltra from '../../assets/img/nossos-pisos-ultra.png';
+import iconUltra from '../../assets/img/nossos-pisos-mega-2.png';
+import logoUltra from '../../assets/svg/logo_ultra.svg';
 
 import { ReactComponent as SvgPincel } from '../../assets/svg/pixel_caneta.svg';
 import { ReactComponent as SvgAcess } from '../../assets/svg/pixel_acessibilidade.svg';
@@ -136,12 +136,12 @@ function SectionOurFloors() {
 
                         <div className="txt1">
                             <SvgCaminhao />
-                            <p>Exclusivas bases de apoio</p>
+                            <p>Suporta tráfego de caminhões</p>
                         </div>
 
                         <div className="txt2">
                             <SvgPeso />
-                            <p>SvgPeso para eventos em estádios</p>
+                            <p>Capacidade de 32toneladas por m²</p>
                         </div>
 
                         <div className="btn">
