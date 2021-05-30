@@ -2,7 +2,7 @@ import React from 'react';
 import './styles.css';
 
 import imgFloor from '../../assets/svg/locacao-de-pisos-plasticos-para-shows-e-eventos.svg';
-import imgFloorMobile from '../../assets/img/img-mobile-Floor.png';
+import imgFloorMobile from '../../assets/svg/locacao-de-pisos-plasticos-para-shows-e-eventos-mobile.svg';
 import pointBlue from '../../assets/img/point-blue-floor.png';
 
 function SectionFloorLeasing() {

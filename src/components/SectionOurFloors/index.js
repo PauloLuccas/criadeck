@@ -1,17 +1,17 @@
 import React from 'react';
 import './styles.css';
 
-import bgPixel from '../../assets/img/nossos-pisos-pixel.png';
-import iconPixel from '../../assets/img/nossos-pisos-pixel-2.png';
+import bgPixel from '../../assets/svg/nossos-pisos-pixel-2.svg';
+import iconPixel from '../../assets/svg/nossos-pisos-pixel.svg';
 import logoPixel from '../../assets/svg/logo_pixel.svg';
-import bgMega from '../../assets/img/nossos-pisos-mega.png';
-import iconMega from '../../assets/img/nossos-pisos-mega-2.png';
+import bgMega from '../../assets/svg/nossos-pisos-mega.svg';
+import iconMega from '../../assets/svg/nossos-pisos-mega-2.svg';
 import logoMega from '../../assets/svg/logo_mega.svg';
-import bgArena from '../../assets/img/nossos-pisos-arena.png';
-import iconArena from '../../assets/img/nossos-pisos-arena-2.png';
+import bgArena from '../../assets/svg/nossos-pisos-arena.svg';
+import iconArena from '../../assets/svg/nossos-pisos-arena-2.svg';
 import logoArena from '../../assets/svg/logo_arena.svg';
-import bgUltra from '../../assets/img/nossos-pisos-ultra.png';
-import iconUltra from '../../assets/img/nossos-pisos-mega-2.png';
+import bgUltra from '../../assets/svg/nossos-pisos-ultra.svg';
+import iconUltra from '../../assets/svg/nossos-pisos-ultra-2.svg';
 import logoUltra from '../../assets/svg/logo_ultra.svg';
 
 import { ReactComponent as SvgPincel } from '../../assets/svg/pixel_caneta.svg';
