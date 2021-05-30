@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles.css';
+import './styles.min.css';
 
 import bgPixel from '../../assets/svg/nossos-pisos-pixel-2.svg';
 import iconPixel from '../../assets/svg/nossos-pisos-pixel.svg';
