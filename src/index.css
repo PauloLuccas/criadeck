@@ -50,3 +50,13 @@ body {
     width: 1640px;
   }
 }
+
+@media (min-width: 2001px) {
+  .container {
+    width: 1680px;
+  }
+
+  body {
+    zoom: 1.1;
+  }
+}

@@ -135,9 +135,9 @@
     }
     .s-banner .img-banner img {
         position: absolute;
-        right: -5rem;
+        right: 9rem;
         top: 0;
-        width: 903px;
+        width: 833px;
     }
 
     .s-ourFloors .floorType .arena, .s-ourFloors .floorType .mega, .s-ourFloors .floorType .pixel {
