@@ -5,7 +5,7 @@ import point1 from '../../assets/img/point1.png';
 import point2 from '../../assets/img/point2.png';
 import point3 from '../../assets/img/point3.png';
 import point4 from '../../assets/img/point4.png';
-import imgBanner from '../../assets/img/somos-a-base-do-entretenimento.png';
+import imgBanner from '../../assets/svg/somos-a-base-do-entretenimento.svg';
 import pointMobile1 from '../../assets/img/point-mobile1.png';
 import pointMobile2 from '../../assets/img/point-mobile2.png';
 import pointMobile3 from '../../assets/img/point-mobile3.png';
