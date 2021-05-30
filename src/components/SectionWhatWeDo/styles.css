@@ -42,6 +42,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    flex-direction: row;
     -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;
@@ -53,7 +54,7 @@
 }
 
 .s-WeDo .cards img {
-    max-width: 90%;
+    max-width: 300px;
     cursor: pointer;
 }
 
@@ -70,9 +71,16 @@
         justify-content: center;
         margin-bottom: 4rem;
     }
+
+    .s-WeDo .cards img {
+        cursor: pointer;
+        margin-left: 1rem;
+        max-width: none;
+    }
+
 }
 
-@media (max-width: 1328px) {
+@media (max-width: 1568px) {
     .s-WeDo {
         background-size: 167%;
         background-repeat: no-repeat;
