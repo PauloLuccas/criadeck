@@ -150,7 +150,7 @@
     }
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1640px) {
     .s-banner .text {
         margin-left: 8rem;
         margin-top: 11rem;
@@ -158,54 +158,59 @@
     }
 
     .s-banner .img-banner img{
-        width: 98%;
+        width: 738px;
         margin-top: 4rem;
+    }
+}
+
+@media (max-width: 1342px) {
+    .s-banner .img-banner img{
+        width: 708px;
+        margin-top: 4rem;
+    }
+    .s-banner .text {
+        margin-left: 5rem;
+        margin-top: 11rem;
+        width: 122%;
     }
 }
 
 @media (max-width: 1252px) {
     .s-banner .text {
-        margin-left: 8rem;
-        margin-top: 11rem;
+        margin-left: 4rem;
+        margin-top: 9rem;
         width: 162%;
     }
 
     .s-banner .img-banner img{
-        width: 98%;
+        width: 688px;
         margin-top: 6rem;
     }
 }
 
 @media (max-width: 1200px) {
     .s-banner .text {
-        margin-top: 7rem;
-    }
-}
-
-@media (max-width: 1194px) {
-    .s-banner .text {
-        margin-left: 8rem;
-        margin-top: 11rem;
-        width: 182%;
+        margin-left: 2rem;
+        margin-top: 9rem;
+        width: 162%;
     }
 
     .s-banner .img-banner img{
-        width: 98%;
-        margin-top: 7rem;
+        width: 658px;
+        margin-top: 6rem;
     }
 }
 
-
-@media (max-width: 1145px) {
+@media (max-width: 1134px) {
     .s-banner .text {
-        margin-left: 8rem;
-        margin-top: 11rem;
-        width: 280%;
+        margin-left: 2rem;
+        margin-top: 9rem;
+        width: 162%;
     }
 
     .s-banner .img-banner img{
-        width: 98%;
-        margin-top: 10rem;
+        width: 528px;
+        margin-top: 6rem;
     }
 }
 
