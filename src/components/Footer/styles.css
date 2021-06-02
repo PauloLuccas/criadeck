@@ -77,7 +77,8 @@
 
 .s-footer .container .f-top .menu-footer a {
     color: #5E5E5E;
-    font-size: 15px;
+    font-size: 17px
+;
     line-height: 2;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
@@ -182,17 +183,22 @@
     }
     
     .s-footer .container .m-contatos li {
-        margin-bottom: .3rem;
+        margin-bottom: 1.5rem;
+        margin-left: 3rem;
+        position: relative;
     }
 
     .s-footer .container .m-contatos svg.m-svg {
         width: 8%;
+        position: absolute;
+        left: -2.2rem;
+        top: -.1rem;
     }
 
     .s-footer .container .m-contatos a {
         color: #5E5E5E;
         text-decoration: underline;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .s-footer .container .m-contatos a.p-a {
@@ -203,7 +209,7 @@
     .s-footer .container .m-contatos span {
         margin-left: 7%;
         color: #989898;
-        font-size: 14px;
+        font-size: 16px;
         letter-spacing: .16px;
     }
 

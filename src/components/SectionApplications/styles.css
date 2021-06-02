@@ -76,6 +76,16 @@
     margin-left: .7rem;
 }
 
+.s-applications img.mCard1,
+.s-applications img.mCard2,
+.s-applications img.mCard3,
+.s-applications img.mCard4,
+.s-applications img.mCard5,
+.s-applications img.mCard6,
+.s-applications img.mCard7  {
+    display: none;
+}
+
 @media (max-width: 1000px) {
     .s-applications .Carousel {
         width: 150%;
@@ -135,6 +145,26 @@
     .s-applications .text {
         width: 100%;
         margin: 0;
+    }
+
+    .s-applications .Carousel img.dCard1,
+    .s-applications .Carousel img.dCard2,
+    .s-applications .Carousel img.dCard3,
+    .s-applications .Carousel img.dCard4,
+    .s-applications .Carousel img.dCard5,
+    .s-applications .Carousel img.dCard6,
+    .s-applications .Carousel img.dCard7 {
+        display: none;
+    }
+
+    .s-applications img.mCard1,
+    .s-applications img.mCard2,
+    .s-applications img.mCard3,
+    .s-applications img.mCard4,
+    .s-applications img.mCard5,
+    .s-applications img.mCard6,
+    .s-applications img.mCard7 {
+        display: block;
     }
 }
 
