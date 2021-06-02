@@ -111,9 +111,13 @@
 .s-banner .text input {
     width: 196px;
     height: 52px;
-    border-radius: 8px;
     position: relative;
     background: #fff;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -khtml-border-radius: 8px;
+    -webkit-appearance: none;
 }
 
 .s-banner .text input[value="Faça um orçamento"] {
@@ -370,7 +374,19 @@
 
     .s-banner .text input {
         width: 100%;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+        -khtml-border-radius: 8px;
     }
+
+    _::-webkit-:host:not(:root:root), .safari_only {
+        background-color:#FFF;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+        -khtml-border-radius: 8px;
+      }
 
     .s-banner .img-banner img {
         width: 133%;

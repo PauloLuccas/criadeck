@@ -19,9 +19,13 @@
 .s-budget .container input {
     width: 196px;
     height: 45px;
-    border-radius: 8px;
     position: relative;
     background: #fff;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -khtml-border-radius: 8px;
+    -webkit-appearance: none;
 }
 
 .s-budget .container input[value="Faça um orçamento"] {
