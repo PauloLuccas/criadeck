@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-import imgFloor from '../../assets/svg/locacao-de-pisos-plasticos-para-shows-e-eventos.svg';
+import imgFloor from '../../assets/img/locacao-de-pisos-plasticos-para-shows-e-eventos.png';
 import imgFloorMobile from '../../assets/svg/locacao-de-pisos-plasticos-para-shows-e-eventos-mobile.svg';
 import pointBlue from '../../assets/img/point-blue-floor.png';
 
