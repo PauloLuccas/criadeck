@@ -4,7 +4,8 @@
     background-repeat: no-repeat;
     background-size: 100%;
     text-align: center;
-    padding-top: 4rem;
+    padding-top: 7rem;
+    margin-bottom: 7rem;
 }
 
 .s-budget .container h1 {
@@ -36,6 +37,12 @@
 
 .s-budget .container h1.t-mobile {
     display: none;
+}
+
+@media (max-width: 1133px) {
+    .s-budget .container {
+        padding-top: 3rem;
+    }
 }
 
 @media (max-width: 1077px) {
