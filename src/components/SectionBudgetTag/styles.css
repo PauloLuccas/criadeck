@@ -39,6 +39,12 @@
     display: none;
 }
 
+@media (max-width: 1344px) {
+    .s-budget .container {
+        padding-top: 3rem;
+    }
+}
+
 @media (max-width: 1133px) {
     .s-budget .container {
         padding-top: 3rem;
@@ -67,6 +73,7 @@
 
     .s-budget .container h1 {
         margin-bottom: 1rem;
+        font-size: 30px;
     }
 }
 
