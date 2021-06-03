@@ -1,5 +1,6 @@
 .s-footer {
     background-color: #EEEEF0;
+    width: 105%;
 }
 
 .s-footer .container {
@@ -119,9 +120,21 @@
 
 @media (min-width: 2000px) {
     .s-footer .container .f-top .c1 .socials svg {
-        width: 7%!important;
+        width: 27%!important;
+    }
+
+    .s-footer .container .f-top .c1 {
+        width: 216px;
+    }
+
+}
+
+@media (min-width: 1001px) and (max-width: 1999px) {
+    .s-footer .container .f-top .c1 {
+        width: 216px;
     }
 }
+
 
 @media (max-width: 1000px) {
     .s-footer .container .f-top .divisor img {

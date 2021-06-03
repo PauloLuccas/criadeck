@@ -58,6 +58,20 @@
     cursor: pointer;
 }
 
+@media (min-width: 1640px) {
+    .s-WeDo .cards img {
+        max-width: 400px;
+        margin-right: 5rem;
+    }
+}
+
+@media (max-width: 1596px) {
+    .s-WeDo .cards img {
+        max-width: 369px;
+        margin-right: 2rem;
+    }
+}
+
 @media (min-width: 1400px) {
     .s-WeDo {
         background-size: 100%;

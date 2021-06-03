@@ -80,15 +80,32 @@
     .s-floor .container img {
         width: 54%;
         margin-right: 7rem;
+        top: 16px;
+    }
+
+    .s-floor {
+        height: 700px;
+    }
+
+    .s-floor .text {
+        margin-top: 8rem;
     }
 }
 
-@media (min-width: 1800px) and (max-width: 2000px) {
+@media (min-width: 1801px) and (max-width: 2000px) {
     .s-floor .container img {
         position: absolute;
         right: 5rem;
-        top: 0;
+        top: 16px;
         width: 923px;
+    }
+    
+    .s-floor {
+        height: 700px;
+    }
+
+    .s-floor .text {
+        margin-top: 8rem;
     }
 }
 
@@ -102,14 +119,30 @@
     .s-floor .container img {
         position: absolute;
         right: 5rem;
-        top: 0;
+        top: 16px;
         width: 923px;
+    }
+    
+    .s-floor {
+        height: 700px;
+    }
+
+    .s-floor .text {
+        margin-top: 8rem;
     }
 }
 
 @media (max-width: 1640px) {
     .s-floor .container img {
         width: 60%
+    }
+
+    .s-floor {
+        height: 700px;
+    }
+
+    .s-floor .text {
+        margin-top: 8rem;
     }
 }
 
