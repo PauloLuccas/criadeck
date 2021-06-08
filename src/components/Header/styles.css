@@ -110,4 +110,8 @@ header a.btn-menu {
     header input {
         display: none;
     }
+
+    header .logo {
+        margin-left: -14px;
+    }
 }

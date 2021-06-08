@@ -146,6 +146,12 @@
     }
 }
 
+@media (max-width: 1400px) {
+    .s-floor {
+        height: 529px;
+    }
+}
+
 @media (max-width: 1000px) {
     .s-floor {
         height: 20%;
@@ -259,6 +265,7 @@
     .s-floor .text  {
         width: 100%;
         margin-left: 0!important;
+        margin-top: 3rem;
     }
 
     .s-floor .text br.br2,

@@ -135,6 +135,13 @@
     }
 }
 
+@media (min-width: 1600px) {
+    .s-footer .container .f-top .menu-footer {
+        display: flex;
+        gap: 95px;
+    }
+}
+
 
 @media (max-width: 1000px) {
     .s-footer .container .f-top .divisor img {

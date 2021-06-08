@@ -352,7 +352,7 @@
 
     .s-banner .text {
         margin-bottom: 2rem;
-        margin-top: 4rem!important;
+        margin-top: 0rem!important;
     }
 
     .s-banner .text p.p-text {
@@ -394,12 +394,12 @@
     }
 
     .s-banner img.point-mobile3 {
-        bottom: 21.5rem;
+        bottom: 19.5rem;
         right: .7rem;
     }
 
     .s-banner img.point-mobile4 {
-        bottom: 22rem;
+        bottom: 19.5rem;
         left: 0;
     }
 }
