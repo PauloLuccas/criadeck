@@ -20,6 +20,10 @@ body {
   background-color: #f5f5f7;
 }
 
+#root {
+  overflow-x: hidden;
+}
+
 .container {
   width: 1248px;
   margin: 0 auto;
@@ -34,6 +38,7 @@ body {
 @media (max-width: 1640px) {
   body {
     zoom: 1;
+    overflow-x: hidden;
   }
 
   .container {
@@ -58,5 +63,11 @@ body {
 
   body {
     zoom: 1.1;
+  }
+}
+
+@media (min-width: 414px) and (max-width: 580px) {
+  body#root {
+    overflow-x: hidden!important;
   }
 }

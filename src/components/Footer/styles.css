@@ -187,6 +187,10 @@
 
 @media (max-width: 575px) {
 
+    .s-footer {
+        width: 100%;
+    }
+
     .s-footer .container .f-top .c1 img.patternMobile {
         display: block;
         position: absolute;
@@ -279,12 +283,22 @@
 }
 
 @media (max-width: 520px) {
+    .s-footer {
+        width: 100%;
+    }
+
+
     .s-footer .container .f-top .c1 svg.logo {
         width: 50%;
     }
 }
 
 @media (max-width: 500px) {
+
+    .s-footer {
+        width: 100%;
+    }
+
     .s-footer .container .f-top .menu-footer .n-c1 {
         margin-left: 1rem;
     }
