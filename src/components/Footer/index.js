@@ -50,7 +50,7 @@ function Footer() {
                                     </li>
                                     <li>
                                         <SvgMail className="m-svg" />
-                                        <a href="#">contato@criadeck.com</a>
+                                        <a href="#">contato@criadeck.com.br</a>
                                     </li>
                                     <li className="l-mobile">
                                         <SvgLocalizacao className="m-svg" />
@@ -129,7 +129,7 @@ function Footer() {
                                     </li>
                                     <li>
                                         <SvgMail />
-                                        <a href="#">contato@criadeck.com</a>
+                                        <a href="#">contato@criadeck.com.br</a>
                                     </li>
                                     <li className="l-mobile">
                                         <SvgLocalizacao />

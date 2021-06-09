@@ -461,6 +461,12 @@
     }
 }
 
+@media (min-width: 1350px) and (max-width: 1639px) {
+    .s-ourFloors .floorType .ultraBody .btn svg {
+        top: 32.2rem;
+    }
+}
+
 @media (max-width:1350px) {
     .s-ourFloors .floorType .arenaBody .btn svg {
         top: 29.7rem
