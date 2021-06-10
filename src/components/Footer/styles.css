@@ -315,3 +315,9 @@
         margin-left: 3rem;
     }
 }
+
+@media (max-width: 414px) {
+    .s-footer .container .f-top .menu-footer {
+        padding-right: 0;
+    }
+}

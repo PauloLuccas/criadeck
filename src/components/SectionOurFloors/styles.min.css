@@ -627,16 +627,16 @@
 
 @media (max-width:414px) {
     .s-ourFloors .floorType .pixelBody .btn svg {
-        top: 38.1rem;
+        top: 38.8rem;
     }
     .s-ourFloors .floorType .megaBody .btn svg {
-        top: 38rem
+        top: 38.8rem;
     }
     .s-ourFloors .floorType .arenaBody .btn svg {
-        top: 37.6rem
+        top: 38.8rem
     }
     .s-ourFloors .floorType .ultraBody .btn svg {
-        top: 39rem;
+        top: 39.8rem;
     }
 }
 
