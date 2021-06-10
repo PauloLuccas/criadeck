@@ -172,4 +172,8 @@
     .s-applications .Carousel {
         width: 392%;
     }
+    
+    .s-applications .text p {
+        font-size: 15px;
+    }
 }

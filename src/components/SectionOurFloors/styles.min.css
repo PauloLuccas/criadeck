@@ -484,6 +484,12 @@
     }
 }
 
+@media (min-width: 1640px) and (max-width: 1675px) {
+    .s-ourFloors .floorType .arena, .s-ourFloors .floorType .mega, .s-ourFloors .floorType .pixel {
+       margin-right: 0;
+    }
+}
+
 
 @media (min-width: 1350px) and (max-width: 1639px) {
     .s-ourFloors .floorType .ultraBody .btn svg {
