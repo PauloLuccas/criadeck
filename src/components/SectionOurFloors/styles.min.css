@@ -528,24 +528,23 @@
         display: none
     }
     .s-ourFloors .floorType .arena .btn input, .s-ourFloors .floorType .megaBody .btn input, .s-ourFloors .floorType .pixelBody .btn input, .s-ourFloors .floorType .ultra .btn input {
-        border: none;
         background: #fff
     }
     .s-ourFloors .floorType .pixelBody .btn svg {
-        left: 6.5rem;
-        top: 29.9rem
+        left: 6rem;
+        top: 30rem;
     }
     .s-ourFloors .floorType .megaBody .btn svg {
-        left: 6.5rem;
-        top: 29.9rem
+        left: 6rem;
+        top: 29.8rem;
     }
     .s-ourFloors .floorType .arenaBody .btn svg {
-        left: 6.5rem;
-        top: 29.8rem
+        left: 6rem;
+        top: 29.8rem;
     }
     .s-ourFloors .floorType .ultraBody .btn svg {
-        left: 6.5rem;
-        top: 29.9rem
+        left: 6rem;
+        top: 29.9rem;
     }
 }
 
@@ -579,23 +578,23 @@
         font-size: 16px
     }
     .s-ourFloors .floorType .pixelBody .btn svg {
-        left: 6.8rem;
-        top: 39.1rem;
+        left: 7rem;
+        top: 39.9rem;
     }
     .arenaBody svg.exemplo, .megaBody svg.exemplo, .pixelBody svg.exemplo, .ultraBody svg.exemplo {
         right: -8.5rem
     }
     .s-ourFloors .floorType .megaBody .btn svg {
         left: 7rem;
-        top: 39.2rem;
+        top: 39.9rem;
     }
     .s-ourFloors .floorType .arenaBody .btn svg {
         left: 7rem;
-        top: 39.2rem
+        top: 39.9rem;
     }
     .s-ourFloors .floorType .ultraBody .btn svg {
         left: 7rem;
-        top: 40rem
+        top: 40.9rem
     }
     .s-ourFloors .floorType .pixel img.iconPixel {
         position: absolute;
@@ -616,8 +615,13 @@
         top: 7rem;
         left: -5.4rem
     }
-    .s-ourFloors .floorType .ultra {
-        margin-right: 1rem
+
+    .s-ourFloors .floorType .arena, .s-ourFloors .floorType .mega, .s-ourFloors .floorType .pixel {
+        margin-right: 0;
+    }
+
+    .s-ourFloors .floorType .arena .btn input, .s-ourFloors .floorType .megaBody .btn input, .s-ourFloors .floorType .pixelBody .btn input, .s-ourFloors .floorType .ultra .btn input {
+        width: 131px;
     }
 }
 
