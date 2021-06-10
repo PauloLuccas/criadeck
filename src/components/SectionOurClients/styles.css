@@ -97,7 +97,8 @@
 
 @media (max-width: 440px) {
     .s-ourClients .text h1 {
-        margin-top: 2rem;
-        margin-bottom: -6rem;
+        margin-top: 1rem;
+        margin-bottom: -4rem;
+        font-size: 32px;
     }
 }
