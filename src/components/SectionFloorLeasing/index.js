@@ -11,7 +11,7 @@ function SectionFloorLeasing() {
         <div className="container">
             <div className="text">
                 <h1>Locação de <br className="br1"/> pisos<br className="m-br1"/>  plásticos <br className="br2"/> para shows <br className="br3"/> e eventos</h1>
-                <p>A ideia não é apenas fazer diferente,<br className="m-br1"/> é evoluir <br className="br1"/> o tempo topo, aprimorando nossos <br className="m-br1"/> pisos <br className="br2"/> e impactando o mercado de eventos com <br className="br3"/> inovação e agilidade para supreender.</p>
+                <p>A ideia não é apenas fazer diferente,<br className="m-br1"/> é evoluir <br className="br1"/> o tempo todo, aprimorando nossos <br className="m-br1"/> pisos <br className="br2"/> e impactando o mercado de eventos com <br className="br3"/> inovação e agilidade para supreender.</p>
                 <input type="submit" value="Saiba mais"/>
             </div>
 

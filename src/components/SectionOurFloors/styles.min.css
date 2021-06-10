@@ -427,6 +427,17 @@
     .s-ourFloors .floorType .ultraBody .btn svg {
         top: 35rem!important;
     }
+
+    .s-ourFloors .floorType .arenaBody .txt2 {
+        margin-top: 8px;
+        margin-bottom: -8px;
+    }
+}
+
+@media (min-width: 1540px) and (max-width: 1640px) {
+    .s-ourFloors .floorType .ultraBody .btn svg {
+        top: 32.4rem!important;
+    }
 }
 
 @media (min-width:1540px) {
@@ -461,9 +472,22 @@
     }
 }
 
+@media (min-width: 1434px) and (max-width: 1540px) {
+    .s-ourFloors .floorType .arena, .s-ourFloors .floorType .mega, .s-ourFloors .floorType .pixel, .s-ourFloors .floorType .ultra {
+        zoom: 1.16;
+    }
+}
+
+@media (min-width: 1360px) and (max-width: 1433px) {
+    .s-ourFloors .floorType .arena, .s-ourFloors .floorType .mega, .s-ourFloors .floorType .pixel, .s-ourFloors .floorType .ultra {
+        zoom: 1.1;
+    }
+}
+
+
 @media (min-width: 1350px) and (max-width: 1639px) {
     .s-ourFloors .floorType .ultraBody .btn svg {
-        top: 32.2rem;
+        top: 29.8rem;
     }
 }
 
@@ -556,14 +580,14 @@
     }
     .s-ourFloors .floorType .pixelBody .btn svg {
         left: 6.8rem;
-        top: 39.1rem
+        top: 39.1rem;
     }
     .arenaBody svg.exemplo, .megaBody svg.exemplo, .pixelBody svg.exemplo, .ultraBody svg.exemplo {
         right: -8.5rem
     }
     .s-ourFloors .floorType .megaBody .btn svg {
         left: 7rem;
-        top: 39.2rem
+        top: 39.2rem;
     }
     .s-ourFloors .floorType .arenaBody .btn svg {
         left: 7rem;
@@ -575,10 +599,10 @@
     }
     .s-ourFloors .floorType .pixel img.iconPixel {
         position: absolute;
-        top: 5rem;
-        left: -5.5rem;
+        top: 3rem;
+        left: -6.5rem;
         margin-top: -1rem;
-        width: 125%
+        width: 146%;
     }
     .mega img.iconMega {
         top: 7rem;
